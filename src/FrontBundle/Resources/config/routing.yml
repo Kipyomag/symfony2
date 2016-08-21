@@ -1,0 +1,11 @@
+test_front_homepage:
+  path: /
+  defaults: { _controller: FrontBundle:Default:index}
+
+test_front_sheet:
+  path: /sheet/{id}
+  defaults: { _controller: FrontBundle:Sheet:sheet}
+
+test_front_sheet_list:
+  path: /sheet-list
+  defaults: { _controller: FrontBundle:Sheet:sheetList}
