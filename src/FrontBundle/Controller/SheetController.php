@@ -13,6 +13,14 @@ Class SheetController extends Controller
     public function sheetListAction(Request $request)
     {
 
+        $session = $this->get('session');
+        $session->set('machin', 'plop');
+        $session->getFlashBag()->add('machin', 'truc');
+
+        //redirect: redirige l'url passée en paramètre
+        /*$url = $this->generateUrl('test_front_sheet', array('id' => 1));
+        return $this->redirect($url);*/
+
         return $this->render('FrontBundle:Sheet:sheetList.html.twig');
     }
 

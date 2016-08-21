@@ -4,7 +4,7 @@
 {% block pageTitle %}{{ 'Collectify Sheet List'|upper }}{% endblock %}
 
 {% block body %}
-
+    {{ app.session.flashBag.get('machin')[0] }}
 {% endblock %}
 
 {% block footer %}
