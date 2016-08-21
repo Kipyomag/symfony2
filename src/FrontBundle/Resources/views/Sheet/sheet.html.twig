@@ -1,0 +1,15 @@
+{% extends "::base.html.twig" %}
+
+{%  block title %}Collecty Sheet {% endblock %}
+{% block pageTitle %}{{ 'Collectify Sheet '|upper }}{% endblock %}
+
+{% block body %}
+
+    {% include "FrontBundle:Includes:Sheets/" ~ id ~ ".html.twig" %}
+{% endblock %}
+
+{% block footer %}
+    {% include "FrontBundle:Includes:Default/Footer.html.twig" %}
+{% endblock %}
+
+
