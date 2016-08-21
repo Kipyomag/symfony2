@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d2cc92ca-2f82-4a27-92a2-16e8e764a846" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/FrontBundle/Entity/Sheet.php" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/FrontBundle/Repository/SheetRepository.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FrontBundle/Controller/SheetController.php" afterPath="$PROJECT_DIR$/src/FrontBundle/Controller/SheetController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FrontBundle/Resources/views/Sheet/sheet.html.twig" afterPath="$PROJECT_DIR$/src/FrontBundle/Resources/views/Sheet/sheet.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FrontBundle/Resources/views/Sheet/sheetList.html.twig" afterPath="$PROJECT_DIR$/src/FrontBundle/Resources/views/Sheet/sheetList.html.twig" />
     </list>
     <ignored path="symfony2brain.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -157,6 +156,7 @@
         <option value="$PROJECT_DIR$/src/FrontBundle/Resources/views/Sheet/sheet.html.twig" />
         <option value="$PROJECT_DIR$/src/FrontBundle/Resources/views/Sheet/sheetList.html.twig" />
         <option value="$PROJECT_DIR$/src/FrontBundle/Controller/SheetController.php" />
+        <option value="$PROJECT_DIR$/app/config/parameters.yml" />
       </list>
     </option>
   </component>
@@ -655,7 +655,7 @@
       <workItem from="1471343000847" duration="566000" />
       <workItem from="1471426052792" duration="145000" />
       <workItem from="1471426330911" duration="4200000" />
-      <workItem from="1471779383452" duration="11596000" />
+      <workItem from="1471779383452" duration="11963000" />
     </task>
     <task id="LOCAL-00001" summary="modif">
       <created>1471435090649</created>
@@ -685,17 +685,24 @@
       <option name="project" value="LOCAL" />
       <updated>1471791380463</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="ajout entity sheet">
+      <created>1471795439154</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1471795439154</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17479000" />
+    <option name="totallyTimeSpent" value="17846000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2391" y="-9" width="2418" height="1318" extended-state="6" />
-    <editor active="true" />
+    <editor active="false" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17591801" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.17591801" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32957503" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32957503" sideWeight="0.5034159" order="7" side_tool="true" content_ui="tabs" />
@@ -732,7 +739,8 @@
     <MESSAGE value=" ajout index twig" />
     <MESSAGE value="ajout sheetController" />
     <MESSAGE value="ajout sheets" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajout sheets" />
+    <MESSAGE value="ajout entity sheet" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout entity sheet" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -928,6 +936,14 @@
             <element signature="e#676#715#1#PHP" expanded="true" />
             <element signature="e#884#919#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app/config/parameters.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="27" selection-start-line="6" selection-start-column="27" selection-end-line="6" selection-end-column="27" />
+          <folding />
         </state>
       </provider>
     </entry>
