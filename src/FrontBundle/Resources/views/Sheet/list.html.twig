@@ -4,6 +4,7 @@
 {% block pageTitle %}{{ 'Collectify Sheet List'|upper }}{% endblock %}
 
 {% block body %}
+
     {%  for sheet in sheets %}
         {{ sheet.name }} by  {{ sheet.artist }} / {{ sheet.type }} <a href="{{ path('test_front_sheet',{'id': sheet.id}) }}">Détails</a><br>
         <hr>

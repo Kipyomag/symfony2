@@ -12,7 +12,7 @@ Class SheetController extends Controller
 {
 
     // lister les différentes fiches
-    public function sheetListAction(Request $request)
+    public function listAction(Request $request)
     {
         $em = $this->getDoctrine()->getManager();
         $repository = $em->getRepository('FrontBundle:Sheet');
@@ -39,12 +39,12 @@ Class SheetController extends Controller
         /*$url = $this->generateUrl('test_front_sheet', array('id' => 1));
         return $this->redirect($url);*/
 
-        return $this->render('FrontBundle:Sheet:sheetList.html.twig', array('sheets' => $sheets));
+        return $this->render('FrontBundle:Sheet:list.html.twig', array('sheets' => $sheets));
     }
 
     // rendu d'une sheet, une seule fiche et unique fiche (avec id)
 
-    public function sheetAction($id, Request $request)
+    public function showAction($id, Request $request)
     {
         $repository = $this->getDoctrine()->getManager()->getRepository('FrontBundle:Sheet');
         $sheet = $repository->find($id);
@@ -54,7 +54,15 @@ Class SheetController extends Controller
         }
 
 
-        return $this->render('FrontBundle:Sheet:sheet.html.twig', array('sheet' => $sheet));
+        return $this->render('FrontBundle:Sheet:show.html.twig', array('sheet' => $sheet));
+    }
+
+    public function createAction()
+    {
+        $form = $this->createFormBuilder()
+            ->add('name')
+            ->getForm();
+        return $this->render('FrontBundle:Sheet:create.html.twig', array('form' => $form->createView()));
     }
 }
 

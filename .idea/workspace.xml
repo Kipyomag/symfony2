@@ -1,14 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d2cc92ca-2f82-4a27-92a2-16e8e764a846" name="Default" comment="ajout entity sheet">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/src/FrontBundle/Resources/views/Includes/Sheets/1.html.twig" afterPath="" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FrontBundle/Resources/views/Includes/Sheets/2.html.twig" afterPath="$PROJECT_DIR$/src/FrontBundle/Resources/views/Includes/Sheets/information.html.twig" />
+    <list default="true" id="d2cc92ca-2f82-4a27-92a2-16e8e764a846" name="Default" comment="ajout liens dans les vues">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/FrontBundle/Resources/views/Sheet/create.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FrontBundle/Resources/views/Sheet/sheet.html.twig" afterPath="$PROJECT_DIR$/src/FrontBundle/Resources/views/Sheet/show.html.twig" />
+      <change type="MOVED" beforePath="$PROJECT_DIR$/src/FrontBundle/Resources/views/Sheet/sheetList.html.twig" afterPath="$PROJECT_DIR$/src/FrontBundle/Resources/views/Sheet/list.html.twig" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FrontBundle/Controller/SheetController.php" afterPath="$PROJECT_DIR$/src/FrontBundle/Controller/SheetController.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FrontBundle/Repository/SheetRepository.php" afterPath="$PROJECT_DIR$/src/FrontBundle/Repository/SheetRepository.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FrontBundle/Resources/views/Sheet/sheet.html.twig" afterPath="$PROJECT_DIR$/src/FrontBundle/Resources/views/Sheet/sheet.html.twig" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FrontBundle/Resources/views/Sheet/sheetList.html.twig" afterPath="$PROJECT_DIR$/src/FrontBundle/Resources/views/Sheet/sheetList.html.twig" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/FrontBundle/Resources/config/routing.yml" afterPath="$PROJECT_DIR$/src/FrontBundle/Resources/config/routing.yml" />
     </list>
     <ignored path="symfony2brain.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -39,15 +38,59 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SheetController.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SheetController.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/FrontBundle/Controller/SheetController.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="984">
-              <caret line="41" column="77" selection-start-line="41" selection-start-column="77" selection-end-line="41" selection-end-column="77" />
+            <state relative-caret-position="832">
+              <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
               <folding>
                 <element signature="e#41#82#0#PHP" expanded="true" />
-                <element signature="e#1199#1238#0#PHP" expanded="true" />
+                <element signature="e#493#512#1#PHP" expanded="true" />
+                <element signature="e#1194#1228#0#PHP" expanded="true" />
+                <element signature="e#1467#1486#1#PHP" expanded="true" />
+                <element signature="e#1643#1677#0#PHP" expanded="true" />
+                <element signature="e#1877#1913#0#PHP" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="create.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FrontBundle/Resources/views/Sheet/create.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="routing.yml" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FrontBundle/Resources/config/routing.yml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="336">
+              <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="show.html.twig" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/FrontBundle/Resources/views/Sheet/show.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="list.html.twig" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/FrontBundle/Resources/views/Sheet/list.html.twig">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="144">
+              <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -72,7 +115,6 @@
         <option value="$PROJECT_DIR$/src/FrontBundle/Resources/views/Includes/indexFooter.html.twig" />
         <option value="$PROJECT_DIR$/src/FrontBundle/Resources/views/Default/index.html.twig" />
         <option value="$PROJECT_DIR$/src/Test/FrontBundle/Controller/DefaultController.php" />
-        <option value="$PROJECT_DIR$/src/FrontBundle/Resources/config/routing.yml" />
         <option value="$PROJECT_DIR$/app/config/routing.yml" />
         <option value="$PROJECT_DIR$/app/Resources/views/Sheet/sheetList.html.twig" />
         <option value="$PROJECT_DIR$/app/Resources/views/Sheet/sheet.html.twig" />
@@ -81,9 +123,12 @@
         <option value="$PROJECT_DIR$/app/config/parameters.yml" />
         <option value="$PROJECT_DIR$/src/FrontBundle/Resources/views/Includes/Sheets/information.html.twig" />
         <option value="$PROJECT_DIR$/src/FrontBundle/Repository/SheetRepository.php" />
-        <option value="$PROJECT_DIR$/src/FrontBundle/Controller/SheetController.php" />
         <option value="$PROJECT_DIR$/src/FrontBundle/Resources/views/Sheet/sheetList.html.twig" />
         <option value="$PROJECT_DIR$/src/FrontBundle/Resources/views/Sheet/sheet.html.twig" />
+        <option value="$PROJECT_DIR$/src/FrontBundle/Resources/config/routing.yml" />
+        <option value="$PROJECT_DIR$/src/FrontBundle/Controller/SheetController.php" />
+        <option value="$PROJECT_DIR$/src/FrontBundle/Resources/views/Sheet/create.html.twig" />
+        <option value="$PROJECT_DIR$/src/FrontBundle/Resources/views/Sheet/list.html.twig" />
       </list>
     </option>
   </component>
@@ -571,7 +616,7 @@
       <workItem from="1471426052792" duration="145000" />
       <workItem from="1471426330911" duration="4200000" />
       <workItem from="1471779383452" duration="14436000" />
-      <workItem from="1472055613595" duration="1273000" />
+      <workItem from="1472055613595" duration="2074000" />
     </task>
     <task id="LOCAL-00001" summary="modif">
       <created>1471435090649</created>
@@ -622,33 +667,40 @@
       <option name="project" value="LOCAL" />
       <updated>1471849591644</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="ajout liens dans les vues">
+      <created>1472056933890</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1472056933890</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="21592000" />
+    <option name="totallyTimeSpent" value="22393000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="2391" y="-9" width="2418" height="1318" extended-state="6" />
     <editor active="false" />
     <layout>
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1029035" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.1029035" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32957503" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32957503" sideWeight="0.5034159" order="8" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32957503" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32957503" sideWeight="0.49658412" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32957503" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Command Line Tools Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="false" weight="0.32957503" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32957503" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
     </layout>
@@ -670,7 +722,8 @@
     <MESSAGE value="ajout sheetController" />
     <MESSAGE value="ajout sheets" />
     <MESSAGE value="ajout entity sheet" />
-    <option name="LAST_COMMIT_MESSAGE" value="ajout entity sheet" />
+    <MESSAGE value="ajout liens dans les vues" />
+    <option name="LAST_COMMIT_MESSAGE" value="ajout liens dans les vues" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
@@ -691,7 +744,11 @@
           <caret line="11" column="0" selection-start-line="11" selection-start-column="0" selection-end-line="11" selection-end-column="0" />
           <folding>
             <element signature="e#41#82#0#PHP" expanded="true" />
-            <element signature="e#1199#1238#0#PHP" expanded="true" />
+            <element signature="e#493#512#1#PHP" expanded="true" />
+            <element signature="e#1194#1228#0#PHP" expanded="true" />
+            <element signature="e#1467#1486#1#PHP" expanded="true" />
+            <element signature="e#1643#1677#0#PHP" expanded="true" />
+            <element signature="e#1877#1913#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -712,12 +769,12 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FrontBundle/Resources/views/Sheet/sheet.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/FrontBundle/Resources/views/Sheet/show.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="312">
           <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
           <folding>
-            <element signature="e#364#409#0#Twig" expanded="true" />
+            <element signature="e#364#409#0#Twig" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -730,14 +787,11 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FrontBundle/Resources/views/Sheet/sheetList.html.twig">
+    <entry file="file://$PROJECT_DIR$/src/FrontBundle/Resources/views/Sheet/list.html.twig">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="14" column="0" selection-start-line="14" selection-start-column="0" selection-end-line="14" selection-end-column="0" />
-          <folding>
-            <element signature="e#12#28#0#Twig" expanded="true" />
-            <element signature="e#428#473#0#Twig" expanded="true" />
-          </folding>
+          <folding />
         </state>
       </provider>
     </entry>
@@ -746,8 +800,8 @@
         <state relative-caret-position="312">
           <caret line="14" column="68" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="68" />
           <folding>
-            <element signature="e#42#99#0#PHP" expanded="true" />
-            <element signature="e#310#347#1#PHP" expanded="true" />
+            <element signature="e#42#99#0#PHP" expanded="false" />
+            <element signature="e#310#347#1#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -891,42 +945,13 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/FrontBundle/Resources/config/routing.yml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="10" column="24" selection-start-line="10" selection-start-column="24" selection-end-line="10" selection-end-column="24" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FrontBundle/Resources/views/Sheet/sheetList.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="7" column="8" selection-start-line="7" selection-start-column="8" selection-end-line="7" selection-end-column="140" />
-          <folding>
-            <element signature="e#12#28#0#Twig" expanded="true" />
-            <element signature="e#428#473#0#Twig" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/FrontBundle/Resources/views/Sheet/sheet.html.twig">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
-          <folding>
-            <element signature="e#364#409#0#Twig" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/FrontBundle/Controller/DefaultController.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="336">
           <caret line="14" column="68" selection-start-line="14" selection-start-column="8" selection-end-line="14" selection-end-column="68" />
           <folding>
-            <element signature="e#42#99#0#PHP" expanded="true" />
-            <element signature="e#310#347#1#PHP" expanded="true" />
+            <element signature="e#42#99#0#PHP" expanded="false" />
+            <element signature="e#310#347#1#PHP" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -947,14 +972,50 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/src/FrontBundle/Resources/config/routing.yml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="14" column="49" selection-start-line="14" selection-start-column="49" selection-end-line="14" selection-end-column="49" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FrontBundle/Resources/views/Sheet/create.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="16" selection-start-line="6" selection-start-column="16" selection-end-line="6" selection-end-column="16" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/FrontBundle/Controller/SheetController.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="984">
-          <caret line="41" column="77" selection-start-line="41" selection-start-column="77" selection-end-line="41" selection-end-column="77" />
+        <state relative-caret-position="832">
+          <caret line="57" column="5" selection-start-line="57" selection-start-column="5" selection-end-line="57" selection-end-column="5" />
           <folding>
             <element signature="e#41#82#0#PHP" expanded="true" />
-            <element signature="e#1199#1238#0#PHP" expanded="true" />
+            <element signature="e#493#512#1#PHP" expanded="true" />
+            <element signature="e#1194#1228#0#PHP" expanded="true" />
+            <element signature="e#1467#1486#1#PHP" expanded="true" />
+            <element signature="e#1643#1677#0#PHP" expanded="true" />
+            <element signature="e#1877#1913#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FrontBundle/Resources/views/Sheet/list.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/FrontBundle/Resources/views/Sheet/show.html.twig">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="144">
+          <caret line="6" column="67" selection-start-line="6" selection-start-column="67" selection-end-line="6" selection-end-column="67" />
+          <folding />
         </state>
       </provider>
     </entry>
