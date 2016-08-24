@@ -57,11 +57,27 @@ Class SheetController extends Controller
         return $this->render('FrontBundle:Sheet:show.html.twig', array('sheet' => $sheet));
     }
 
-    public function createAction()
+    public function createAction(Request $request)
     {
-        $form = $this->createFormBuilder()
-            ->add('name')
+        $form = $this->createFormBuilder(new Sheet())
+            ->add('name', null, array('label' => 'Nom de l\'album'))
+            ->add('type')
+            ->add('artist')
+            ->add('duration')
+            ->add('released', 'date')
+            ->add('submit', 'submit')
             ->getForm();
+
+        $form->handleRequest($request);
+        if ($request->isMethod('post') && $form->isValid()){
+            $em = $this->getDoctrine()->getManager();
+            $em->persist($form->getData());
+            $em->flush();
+
+            return $this->redirect($this->generateUrl('test_front_sheet_list'));
+        }
+
+
         return $this->render('FrontBundle:Sheet:create.html.twig', array('form' => $form->createView()));
     }
 }

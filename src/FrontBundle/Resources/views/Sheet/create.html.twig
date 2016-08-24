@@ -4,7 +4,9 @@
 {% block pageTitle %}{{ 'Collectify Sheet Create'|upper }}{% endblock %}
 
 {% block body %}
-    {{ form(form) }}
+    {{ form_start(form) }}
+    {{ form_label(form.name) }} {{ form_widget(form.name) }}
+    {{ form_rest(form) }}
 {% endblock %}
 
 {% block footer %}
