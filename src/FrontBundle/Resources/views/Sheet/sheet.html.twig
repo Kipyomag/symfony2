@@ -4,8 +4,8 @@
 {% block pageTitle %}{{ 'Collectify Sheet '|upper }}{% endblock %}
 
 {% block body %}
-    {{ app.session.flashBag.get('machin')[0] }}
-    {% include "FrontBundle:Includes:Sheets/" ~ id ~ ".html.twig" %}
+    <a href="{{ path('test_front_sheet_list') }}">Retour à la liste</a><br>
+    {% include "FrontBundle:Includes:Sheets/information.html.twig" %}
 {% endblock %}
 
 {% block footer %}

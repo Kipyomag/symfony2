@@ -12,4 +12,12 @@ use Doctrine\ORM\EntityRepository;
  */
 class SheetRepository extends EntityRepository
 {
+    public function getAll()
+    {
+        $qb = $this->createQueryBuilder('s');
+
+        $result = $qb->getQuery()->execute();
+
+        return $result;
+    }
 }

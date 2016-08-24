@@ -10,11 +10,11 @@
     </thead>
     <tbody>
     <tr>
-        <td>MTV in New York</td>
-        <td>Vinyl</td>
-        <td>Nirvana</td>
-        <td>53:50</td>
-        <td>2004</td>
+        <td>{{ sheet.name }}</td>
+        <td>{{ sheet.type }}</td>
+        <td>{{ sheet.artist }}</td>
+        <td>{{ sheet.duration }}</td>
+        <td>{{ sheet.released|date('Y') }}</td>
     </tr>
     </tbody>
 </table>

@@ -7,6 +7,7 @@ use Symfony\Component\HttpFoundation\Request;
 use Symfony\Component\HttpFoundation\Response;
 use FrontBundle\Entity\Sheet;
 
+
 Class SheetController extends Controller
 {
 
@@ -32,13 +33,13 @@ Class SheetController extends Controller
 
         $session = $this->get('session');
         $session->set('machin', 'plop');
-        $session->getFlashBag()->add('machin', 'truc');
+        $session->getFlashBag()->add('success', 'truc');
 
         //redirect: redirige l'url passée en paramètre
         /*$url = $this->generateUrl('test_front_sheet', array('id' => 1));
         return $this->redirect($url);*/
 
-        return $this->render('FrontBundle:Sheet:sheetList.html.twig');
+        return $this->render('FrontBundle:Sheet:sheetList.html.twig', array('sheets' => $sheets));
     }
 
     // rendu d'une sheet, une seule fiche et unique fiche (avec id)
